@@ -106,7 +106,6 @@ h4{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-    margin-bottom: 2%;
 }
 
 .soundTitle{
@@ -123,13 +122,46 @@ h4{
     font-weight: bold;
 }
 
+/*MODAL*/
+#agenda{
+    background-color: rgb(172, 171, 171);
+    height: 500px;
+    margin-bottom: 40%;
+}
+#agenda hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tituloAgenda{
+    font-size: 30px;
+}
+
+#contato{
+    background-color: rgb(172, 171, 171);
+    height: 500px;
+    margin-bottom: 40%; 
+}
+#contato img{
+    height: 50px;
+}
+
+#easterEgg{
+    background-color: rgb(172, 171, 171);
+    height: 500px;
+    margin-bottom: 40%;
+}
+
 /*RODAPÉ*/
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    padding-top: 100px;
 }
 footer h4{
     font-size: 10px;
+}
+
+.producao{
+    background-color: black;
 }
