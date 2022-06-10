@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    box-sizing: border-box;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/rigon.jpg");
+    background-color: rgb(0, 0, 0);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: brown;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+a:hover{
+    color: brown;
+
+}
+.click{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    outline: 2px solid #fff;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1s;
+}
+.click:hover{
+    color: brown;
+}
+.click::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    transform: skwX(35deg);
+    z-index: -1;
+    transition: width 1s;
+}
+.click:hover::before{
+    width: 150%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: brown;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/*MUSIC SECTION*/
+.songs{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 2%;
+}
+
+.soundTitle{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.soundTitle p{
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*RODAPÉ*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+footer h4{
+    font-size: 10px;
+}
